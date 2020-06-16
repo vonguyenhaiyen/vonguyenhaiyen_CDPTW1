@@ -1,0 +1,145 @@
+.type-1839{
+    padding-top: 399px;
+    position: relative;
+    width: 100%;
+    min-height: 30px;
+    overflow: hidden;
+    background-color: rgba(0,0,0,.08);
+    .banner{
+        .overlay{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            height: 100%;
+            left: -1px;
+            right: -1px;
+            transition: transform .3s,opacity .6s;
+            pointer-events: none;
+        }
+    
+        .banner-fill{
+            background: url(../images/1.jpg);
+            background-position: 53% 43%;
+            transition: filter .6s,opacity .6s,transform .6s,box-shadow .3s;
+            opacity: 1;
+            background-size: cover!important;
+            background-repeat: no-repeat!important;
+        }
+
+        .banner-layers{
+            max-height: 100%;
+            height: 100%;
+            position: relative;
+            max-width: 1080px;
+
+            .text-box{
+                width: 58%;
+                position: absolute!important;
+                transform: translate(-50%,-50%)!important;
+                font-size: 16px;
+                top: 50%;
+                left: 50%;
+                max-height: 100%;
+
+                .text{
+                    text-align: center;
+                    color: #fff;
+
+                    .uppercase{
+                        line-height: 1.2;
+                        text-transform: uppercase;
+                        letter-spacing: .05em;
+                    }
+
+                    h2{
+                        padding: 0;
+                        margin-top: .2em;
+                        margin-bottom: .2em;
+                        line-height: 1;
+                        font-size: 2.9em;
+
+                        strong{
+                            font-weight: 600;
+                        }
+                    }
+
+                    h4{
+                        padding: 0;
+                        font-size: 1.5em;
+                        margin-top: .6em;
+                        margin-bottom: .6em;
+                    }
+
+                    .timer{
+                        width: 100%;
+                        position: relative;
+                        border-spacing: 5px;
+                        margin: .3em 0 .2em;
+                        font-size: 300%;
+                        display: table;
+                        table-layout: fixed;
+
+                        span{
+                            display: table-cell;
+                            font-weight: bolder;
+                            text-align: center;
+                            color: #FFF;
+                            line-height: 80%;
+                            padding: .4em .1em .1em;
+                            margin: 0 .05em .2em;
+                            border-radius: 5px;
+                            background-color: rgba(255,255,255,.23);
+
+                            strong{
+                                font-size: 30%;
+                                opacity: .7;
+                                text-transform: uppercase;
+                                display: block;
+                                font-weight: 600;
+                            }
+                        }
+                    }
+
+                    .btn-browse{
+                        background-color: #11519B;
+                        margin-top: .5em;
+                        margin-bottom: .5em;
+                        display: inline-block;
+                        text-transform: uppercase;
+                        font-size: .97em;
+                        letter-spacing: .03em;
+                        font-weight: bolder;
+                        border: 1px solid transparent;
+                        line-height: 2.4em;
+                        padding: 0 1.2em;
+                        color: #fff;
+                        transition: transform .3s,border .3s,box-shadow .3s,opacity .3s,color .3s;
+                    }
+                    .btn-browse:hover{
+                        text-decoration: none;
+                            background-color: #0e417c !important;
+                    }
+                }
+            }
+        }
+
+        .banner-bg{
+            height: 398px;
+            transform: translate3d(0px, -22.89px, 0px);
+            backface-visibility: hidden;
+        }
+    }
+
+    .fill-picture{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        right: 0;
+        bottom: 0;
+        padding: 0!important;
+        margin: 0!important;
+    }
+
+    
+}

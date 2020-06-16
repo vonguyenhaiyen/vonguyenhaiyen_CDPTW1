@@ -1,0 +1,54 @@
+.type-1842 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #777; }
+  .type-1842 .accordion_item_title {
+    padding: 10px 30px 10px 50px;
+    color: #777777;
+    display: block;
+    font-size: 110%;
+    border-top: 1px solid #ddd;
+    transition: all ease 0.2s;
+    position: relative; }
+    .type-1842 .accordion_item_title .btn_toggle {
+      position: absolute;
+      font-size: 35px;
+      left: 3%;
+      top: 10%;
+      opacity: 0.6; }
+  .type-1842 .accordion_item_title:hover {
+    text-decoration: none;
+    color: #111111; }
+  .type-1842 .accordion_item .accordion_inner {
+    padding: 10px 25px 30px 50px;
+    display: inline-block;
+    color: #333; }
+  .type-1842 .accordion_item .panel-title a {
+    letter-spacing: 0.2px;
+    padding-left: 30px;
+    position: relative; }
+    .type-1842 .accordion_item .panel-title a:hover {
+      color: #444;
+      text-decoration: none; }
+    .type-1842 .accordion_item .panel-title a.collapsed::after, .type-1842 .accordion_item .panel-title a::after {
+      content: "\f107";
+      font-family: fontawesome;
+      font-size: 20px;
+      line-height: 60px;
+      position: absolute;
+      left: 5px;
+      top: -8px;
+      color: #888;
+      opacity: 0.8; }
+    .type-1842 .accordion_item .panel-title a:after {
+      content: "\f106 "; }
+  .type-1842 .accordion_item .panel-heading.active {
+    background-color: rgba(0, 0, 0, 0.03); }
+    .type-1842 .accordion_item .panel-heading.active .accordion_item_title {
+      font-size: 19px;
+      font-weight: 500;
+      color: #11519b !important; }
+  .type-1842 .title {
+    font-size: 21px;
+    margin-bottom: 27px;
+    margin-top: 30px; }
