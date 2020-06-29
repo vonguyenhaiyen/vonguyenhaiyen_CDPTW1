@@ -1,0 +1,93 @@
+$primary-color : #777777;
+$white: #fff;
+$dark : #0000001a;
+$line : solid;
+$background : #11519b;
+
+
+.type-1842 {
+    font-family: "Lato",sans-serif;
+    font-weight: 400;
+    color: #777;
+
+    .accordion {
+        &_item {
+            &_title {
+                padding: 10px 30px 10px 50px;
+                color: $primary-color;
+                display: block;
+                font-size: 110%;
+                border-top: 1px $line #ddd;
+                transition: all ease 0.2s;
+                position: relative;
+                & .btn_toggle {
+                    position: absolute;
+                    font-size: 35px;
+                    left: 3%;
+                    top: 10%;
+                    opacity: 0.6;
+                }
+            }
+            &_title:hover {
+                text-decoration: none; 
+                color: #111111;
+            }
+             .accordion_inner {
+                padding: 10px 25px 30px 50px;
+                display: inline-block;
+                color: #333;
+            }
+            .panel-title a {
+                letter-spacing: 0.2px;
+                padding-left: 30px;
+                position: relative;
+                &:hover {
+                  color: #444;
+                  text-decoration: none;
+                }
+              
+                &.collapsed::after,
+                &::after {
+                  content: "\f107";
+                  font-family: fontawesome;
+                  font-size: 20px;
+                  line-height: 60px;
+                  position: absolute;
+                  left: 5px;
+                  top: -8px;
+                  color: #888;
+                  opacity: 0.8;
+                }
+              
+                &:after {
+                  content: "\f106 ";
+                }
+            }
+            .panel-heading.active {
+                background-color: rgba(0,0,0,.03);
+                .accordion_item_title {
+                    font-size: 19px;
+                    font-weight: 500;
+                    color: $background !important;
+                }
+            }
+        }     
+    } 
+    
+    .title{
+        font-size: 21px;
+        margin-bottom: 27px;
+        margin-top: 30px;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
